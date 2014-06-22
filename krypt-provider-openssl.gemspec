@@ -1,7 +1,11 @@
+$:.unshift File.expand_path('../lib', __FILE__)
+
+require 'krypt/provider/openssl/version'
+
 Gem::Specification.new do |s|
 
   s.name = 'krypt-provider-openssl'
-  s.version = '0.0.2.rc1'
+  s.version = Krypt::Provider::OpenSSL::VERSION
 
   s.author = 'Hiroshi Nakamura, Martin Bosslet'
   s.email = 'Martin.Bosslet@gmail.com'
